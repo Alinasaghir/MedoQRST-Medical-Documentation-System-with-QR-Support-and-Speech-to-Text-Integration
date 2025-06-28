@@ -27,8 +27,8 @@ connectToDatabase();
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'medoqrst@gmail.com',
-    pass: 'kada ojcd itxv brwk',
+    user: 'your gmail account',
+    pass: 'app password',
   },
 });
 app.get("/updatePrimaryDiagnosis", async (req, res) => {
