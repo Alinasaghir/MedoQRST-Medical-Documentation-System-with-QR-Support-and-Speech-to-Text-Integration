@@ -2,15 +2,23 @@ MedoQRST is a mobile application designed to enhance hospital documentation by a
 
 🚀 Features
 
-QR-Based Patient Access Instantly retrieve patient records by scanning QR codes assigned to beds or patients.
+QR-Based Patient Access
+Instantly retrieve patient records by scanning QR codes assigned to beds or patients.
 
-Speech-to-Text for Ward Updates Doctors can add or update patient information using voice input, improving speed and hygiene.
+Speech-to-Text for Ward Updates
+Doctors can add or update patient information using voice input, improving speed and hygiene.
 
-Role-Based Access Control Separate interfaces and permissions for doctors, consultants, and admins to ensure secure usage.
+Role-Based Access Control
+Separate interfaces and permissions for doctors, consultants, and admins to ensure secure usage.
 
-WhatsApp Integration Send patient summaries or updates to consultants directly through WhatsApp for real-time collaboration.
+WhatsApp Integration
+Send patient summaries or updates to consultants directly through WhatsApp for real-time collaboration.
 
-Efficient Record Management Structured views of diagnoses, vitals, procedures, and notes for improved workflow.
+SMTP Gmail Server Authentication
+Secure email notifications and alerts are sent via Gmail’s SMTP server to ensure reliable communication with hospital staff.
+
+Efficient Record Management
+Structured views of diagnoses, vitals, procedures, and notes for improved workflow.
 
 📱 Technologies Used
 
@@ -22,10 +30,12 @@ Flutter Plugins – For QR scanning and speech-to-text
 
 WhatsApp Intent – For sharing data externally
 
+SMTP Client Libraries – For Gmail SMTP email sending and authentications
+
 🏥 Use Case
 
 MedoQRST is built for hospitals and clinics aiming to digitize patient documentation workflows. It reduces paperwork, saves time during rounds, and ensures accessible patient histories through intuitive mobile interfaces.
 
-🤝 Contributing
+🤝 Contributions
 
 Contributions and feedback are welcome. Feel free to open issues or submit pull requests to help improve the system.
