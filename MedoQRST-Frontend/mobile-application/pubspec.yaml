@@ -1,0 +1,72 @@
+name: MedoQRST
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  marquee: ^2.2.1
+  provider: 
+  google_fonts: ^4.0.0
+  video_player: ^2.9.3
+  open_file: ^3.5.10
+  path_provider: ^2.1.5
+  pdf: ^3.11.2
+  printing: ^5.14.0
+  flutter_pdfview: ^1.4.0
+  url_launcher: ^6.3.1
+  syncfusion_flutter_pdfviewer: ^28.2.5
+  http: ^1.2.2
+  shared_preferences: ^2.4.0
+  permission_handler: ^11.3.1
+  intl: ^0.19.0
+  country_pickers:
+  cupertino_icons: ^1.0.8
+  speech_to_text: ^7.0.0
+  highlight_text: ^1.8.0
+  google_sign_in:
+  avatar_glow: ^3.0.1
+  share_plus: ^7.2.2
+  mime: ^1.0.0
+  qr_code_scanner: ^1.0.1
+  share: ^2.0.4
+  flutter_share: ^2.0.0
+  share_pdf: ^1.0.1
+  mailer: ^6.4.1
+  flutter_spinkit: ^5.2.1
+  animate_do: ^4.2.0
+  introduction_screen: ^3.1.17
+  flutter_file_dialog: ^2.0.0  # Add a version
+
+dev_dependencies:
+  flutter_lints: ^1.0.4
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/key.mp4
+    - assets/qrcode.mp4
+    - assets/doctordoctor.mp4
+    - assets/onlinechat.mp4
+    - assets/scan.mp4
+    - assets/ward_logo.png
+    - assets/dr.png
+    - assets/doctor_profile.jpg
+    - assets/otp_icon.png
+    - assets/email_icon.png
+    - assets/phone_icon.png
+    - assets/calendar_icon.png
+    - assets/nurse.png
